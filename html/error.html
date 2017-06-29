@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8" content="width=device-width, initial-scale=1">
+<title>TECHNIQUE.COM</title>
+<link rel="stylesheet" href="main.css">
+<style>
+
+</style>
+</head>
+<body>
+<div id="head">
+	<div id="company">
+		<h2><span id="name">TECHNIQUE WEB-SERVICES</span></h2>
+		<h4><span id="line">Genesis of Cloud-Tech</span></h4>
+	</div>
+	<div id="ul">
+		<ul>
+		<li><a href="index.html" class="links">Home</a></li>
+		<li><a href="#" class="links">About</a></li>
+		<li><a href="#" class="links">Contact</a></li>
+		<li><a href="login.html" class="links">Login/Register</a></li>
+		</ul>
+	</div>
+</div>
+<div id="lr">
+  <form id="login" action="login.py">
+     <table>
+       <caption>Login Portal</caption>
+       <tr><td><label for="lg">Username </label></td><td><input type="text" id="lg" name="uname" required/></td></tr>
+       <tr><td><label for="pw">Password </label></td><td><input type="text" id="pw" name="uname" required/></td></tr>
+       <tr><td colspan="2"> <input type="submit" value="Getin" name="sbt" /></td></tr>
+     
+     </table>
+  </form>
+  <form id="register" action="register.py">
+     <table>
+       <caption>Register Portal</caption>
+       <tr><td><label for="lg">Username </label></td><td><input type="text" id="lg" name="uname" required/></td></tr>
+       <tr><td><label for="pw">Password </label></td><td><input type="text" id="pw" name="upass" required/></td></tr>
+       <tr><td><label for="em">Email </label></td><td><input type="email" id="em" name="email" required/></td></tr>
+       <tr><td><label for="ctn">Contact No  </label></td><td><input type="text" id="ctn" name="contact" required/></td></tr>
+       <tr><td colspan="2"> <input type="submit" value="Register" name="rgt" /></td></tr>
+     </table>
+  </form>
+</div>
+<div id="error">
+	<h2>Either username or password is incorrect or,<br />You have not registered or, user already exists.</h2>
+</div>
+</body>
+</html>
